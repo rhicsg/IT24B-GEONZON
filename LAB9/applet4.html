@@ -7,19 +7,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Applet 4 - Dynamic Elements</title>
     <style>
-        .applet-container {
+        .applet-container{
             margin-top: 1rem;
+            margin-left: 2rem;
         }
 
-        .input-search {
-            width: 50%;
+        .input-search{
+          margin-left: 3rem;
+          margin-top: 2rem;
+          width:50%;
         }
+
     </style>
+    
 </head>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">Home</a>
+    <a class="navbar-brand" href="../LAB6/index.html">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,10 +35,10 @@
             Applets
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../LAB6/applet1.html">Applet 1</a></li>
-            <li><a class="dropdown-item" href="../LAB7/applet2.html">Applet 2</a></li>
-            <li><a class="dropdown-item" href="../LAB8/applet3.html">Applet 3</a></li>
-            <li><a class="dropdown-item" href="../LAB9/applet4.html">Applet 4</a></li>
+            <li><a class="dropdown-item" href="../LAB6/index.html">Applet 1</a></li>
+              <li><a class="dropdown-item" href="../LAB7/applet2.html">Applet 2</a></li>
+              <li><a class="dropdown-item" href="../LAB8/applet3.html">Applet 3</a></li>
+              <li><a class="dropdown-item" href="../LAB9/applet4.html">Applet 4</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -48,15 +53,18 @@
   </div>
 </nav>
 
-<body class="d-flex justify-content-center flex-column align-items-center">
-  <div class="input-group input-group-lg input-search mb-3">
+<body>
+
+  <div class="input-group input-group-lg input-search">
     <span class="input-group-text">Search</span>
-    <input type="text" class="form-control" id="studentSearchBar">
+    <input type="text" class="form-control" id="studentSearchBar" >
   </div>
+  <div id="studentList"  style="margin-left: 3.5rem;"></div>
+  <div id="studentSearchList" style="margin-left: 3.5rem;"></div>
+
   
-  <div id="studentList" class="mb-3"></div>
-  <div id="studentSearchList"></div>
-  
-  <script src="applet-4.js"></script>
+
+<script src="applet-4.js"></script>
 </body>
+
 </html>
