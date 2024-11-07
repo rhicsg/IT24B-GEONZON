@@ -22,5 +22,18 @@
         "description": "This application applies dynamic elements such as rendering DOM elements from a list",
         "link": "../LAB9/applet4.html",
         "image": "annnn.jpg"
+    },
+    {
+        "title": "Applet 5 - Open Weather ",
+        "description": "This application applies open weather to determine the weather of a place you want to search",
+        "link": "../LAB11/applet5.html",
+        "image": "ae.jpg"
+    },
+
+    {
+        "title": "Applet 6 - Todo List",
+        "description": "This application applies to do list such as adding task you want and can be mark as done also ",
+        "link": "../LAB12/applet6.html",
+        "image": "aa.jpg"
     }
 ]
